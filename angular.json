@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/mon-style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/mon-js.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1eea5749-ae16-44f4-ab04-3be71a7626d4"
   }
 }
